@@ -1,0 +1,13 @@
+type User {
+  id: ID! 
+  name: String!
+  fruits: [Fruit!]!
+}
+
+type Fruit {
+  id: ID! 
+  name: String!
+  users: [User!]!
+}
+
+
