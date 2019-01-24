@@ -140,3 +140,7 @@ const server = new GraphQLServer({
 })
 server.start(() => console.log(`Sever is running on http://localhost:4000`))
 // ============================================================
+
+yarn add prisma-binding
+
+https://www.prisma.io/tutorials/build-a-graphql-server-from-scratch-ct01/
